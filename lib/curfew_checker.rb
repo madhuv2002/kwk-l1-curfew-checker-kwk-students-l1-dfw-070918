@@ -35,4 +35,4 @@ def platinum_curfew_checker(current_time, curfew_time)
   # code goes here
 end
 
-deluxe_curfew_checker(10)
+deluxe_curfew_checker(12)
