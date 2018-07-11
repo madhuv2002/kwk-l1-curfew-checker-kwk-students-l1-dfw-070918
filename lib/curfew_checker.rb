@@ -22,17 +22,4 @@ def complex_curfew_checker(time)
   end 
 end
 
-def deluxe_curfew_checker(time, curfew = 11)
-  if time > curfew
-    puts "You're hours late! Better get home quick!"
-    elsif time == 11
-    puts "Time to apparate!"
-  else puts "Keep having fun!"
-  end 
-end
-
-def platinum_curfew_checker(current_time, curfew_time)
-  # code goes here
-end
-
-deluxe_curfew_checker(12)
+complex_curfew_checker(12)
