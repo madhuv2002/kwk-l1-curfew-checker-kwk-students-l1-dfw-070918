@@ -28,6 +28,7 @@ def deluxe_curfew_checker(time, curfew = 11)
     elsif time = curfew
     puts "Time to apparate!"
   else puts "Keep having fun!"
+  end 
 end
 
 def platinum_curfew_checker(current_time, curfew_time)
