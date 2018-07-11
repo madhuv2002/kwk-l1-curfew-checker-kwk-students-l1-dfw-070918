@@ -19,4 +19,4 @@ def complex_curfew_checker(time)
   else puts "Keep having fun!"
 end
 
-
+complex_curfew_checker(10)
